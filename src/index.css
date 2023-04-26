@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-btn-primary {
+  background-color: #3fc060 !important;
+  border-color: #3fc060 !important;
+}
+
+.ant-btn-danger {
+  color: white;
+  background-color: red !important;
+}
+
+.ant-pagination-item-active {
+  border-color: #3fc060 !important;
+}
+
+li.ant-pagination-item-active a {
+  color: #3fc060 !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #3fc060 !important;
+}
+
+.ant-menu-item-selected span {
+  color: white !important;
+}
+
+.ant-menu-item-active {
+  color: #3fc060 !important;
+}
+  

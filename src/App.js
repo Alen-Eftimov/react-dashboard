@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import 'antd/dist/reset.css';
+// import DetailedOrder from "./modules/DetailedOrder";
+// import Orders from './modules/Orders';
+// import { Routes,Route } from 'react-router-dom';
+import Menu from "./modules/Menu";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Menu />
+    // <Routes>
+    //   <Route path="/" element={<Orders />} />
+    //   <Route path="order/:id" element={<DetailedOrder />} />
+    // </Routes>
   );
-}
+};
+
 
 export default App;
